@@ -49,3 +49,9 @@ max_value=max(numbers)
 print(max_value)
 # numbers.clear()#Xoa toàn bộ list
 # print(numbers)
+from pprint import pprint #Giúp dễ nhìn
+
+list_films=["Anh 7 sấbdainsaá lkasdsamlasm",
+            "Anh 2 asinasasdoln oaold",
+            "Anh 5 ashnoaisnas no"]
+pprint(list_films)
