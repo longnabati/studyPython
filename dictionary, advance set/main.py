@@ -90,5 +90,5 @@ print(sum2)
 
 #join : Ngăn cách nhau bởi
 lst = [1, 2, 3, 4]
-s = " - ".join(map(str,lst)) # Hàm map dùng để chuyển list về dạng tương ứng
+s = " - ".join(map(str,lst)) # Hàm map dùng để chuyển list về dạng tương 
 print(s)
