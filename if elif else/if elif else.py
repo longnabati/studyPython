@@ -40,3 +40,9 @@ lst = [1, 2, 3, 4]
 lst.sort()
 new_lst = sorted(lst , reverse=True)
 print(new_lst)
+
+print(divmod(4 , 3))
+
+print(bin(3)[2:])
+
+print(format(3, 'b'))
