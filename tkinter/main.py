@@ -35,7 +35,7 @@ lbl_pass = tk.Label(root,text = "Password", bg = "orange", fg = "white")
 lbl_pass.grid(row = 1, column = 0,padx = (30,0),pady=(20,0))
 
 txt_password = tk.Entry(root,width = "30")                                    #Row là cột, Column là hàng
-txt_password.grid(row = 1, column= 1,padx = (30,0),pady = (20,20))
+txt_password.grid(row = 1, column= 1,padx = (30,0),pady = (20,0))
 
 btn_submit = ttk.Button(root, text = "Login",command= click)
 btn_submit.grid(row= 2,column=1,ipadx = 20, ipady = 5)
